@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    .logo{
+    font-size: 1.2rem;
+    color: white;
+    
+    
+    }
+    
+    #header{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    
+    }
+    ul{
+    display: flex;
+    float: right;
+    margin-right: 10rem;
+    
+    }
+    li{
+    
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    
+    }
+    li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    justify-content: end;
+    align-items: flex-end;
+    }
+    li a:hover{
+    text-decoration: underline;
+    color: red;
+    transition: .3s ;
+    
+    }
+
+
+
+    
+  .home{
+
+ background: url(/images/Credit\ card-amico.png), transparent;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: left;
+ width: 50%;
+ height: 100vh;
+
+
+
+  }
+    
+.right-content {
+display: flex;
+
+}
+.welcome{
+display: flex;
+margin-top: 8rem;
+margin-left: 140%;
+font-size: 26px;
+
+}
+.welcome span{
+color: red;
+margin-top: 4rem;
+
+
+}
+
+
+.container{
+width: 100%;
+height: 100vh;
+/* background-color: yellow; */
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1);
+
+}
+
+
+.card-img-top 
+{
+width: 450px;
+height: 450px;
+
+margin-top: 10rem;
+
+}
+.card-body{
+width: 10rem;
+height: 10vh;
+margin-bottom: 10rem;
+
+
+}
+.card{
+    border-radius: 43px;
+    margin-top: 20px;
+
+
+}
+
+.card-title{
+
+color: rgb(18, 16, 16);
+font-size: 26px;
+font-weight: 400;
+
+}
+.card-text{
+color: black;
+
+
+}
+.btn {
+
+color: rgb(112, 35, 35);
+text-decoration: none;
+border: 2px solid red;
+
+
+}
+
+
+/* media query */
+
+
+
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+    ul {
+    display:grid;
+    position: absolute;
+    text-align: center;
+  }
+  #home{
+    margin-top: 300px;
+  }
+  .header{
+    width: 100%;
+  }
+  img{
+    margin-top: 200px;
+  }
+  }
+  @media only screen and (max-width: 700px) and (min-width: 300px){
+    .card{
+      display: block;
+    }
+  }
+  #tableData{
+  margin-bottom: 2rem;
+}
